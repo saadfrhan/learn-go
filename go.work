@@ -4,6 +4,13 @@ use (
 	./0-hello
 	./1-create-module
 	./2-call-code-from-outside
-	./3-error-handling/handler
 	./3-error-handling/caller
+	./3-error-handling/handler
+	./4-go-slice/caller
+	./4-go-slice/function
+	./5-multi-args-greeting/caller
+	./5-multi-args-greeting/function
+	./6-testing
+	./7-compile-and-installation
+	./7-compile-and-installation/greeting
 )

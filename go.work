@@ -2,15 +2,20 @@ go 1.22.0
 
 use (
 	./0-hello
-	./1-create-module
-	./2-call-code-from-outside
-	./3-error-handling/caller
-	./3-error-handling/handler
-	./4-go-slice/caller
-	./4-go-slice/function
-	./5-multi-args-greeting/caller
-	./5-multi-args-greeting/function
-	./6-testing
-	./7-compile-and-installation
-	./7-compile-and-installation/greeting
+	./1-getting-started/1-create-module
+	./1-getting-started/2-call-code-from-outside
+	./1-getting-started/3-error-handling/caller
+	./1-getting-started/3-error-handling/handler
+	./1-getting-started/4-go-slice/caller
+	./1-getting-started/4-go-slice/function
+	./1-getting-started/5-multi-args-greeting/caller
+	./1-getting-started/5-multi-args-greeting/function
+	./1-getting-started/6-testing
+	./1-getting-started/7-compile-and-installation
+	./1-getting-started/7-compile-and-installation/greeting
+	./2-multi-module-workspaces
+	./2-multi-module-workspaces/example
+	./2-multi-module-workspaces/example/hello
+	./2-multi-module-workspaces/example/helloserver
+	./2-multi-module-workspaces/example/outyet
 )
